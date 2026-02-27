@@ -1,0 +1,17 @@
+define flow check prompt injection
+  $is_injection = execute check_injection_intent
+  if $is_injection
+    bot refuse injection attempt
+    stop
+
+define flow check jailbreak attempt
+  $is_jailbreak = execute check_jailbreak_patterns
+  if $is_jailbreak
+    bot refuse jailbreak attempt
+    stop
+
+define bot refuse injection attempt
+  "System Security Error: Potential prompt injection or system override pattern detected. Request aborted."
+
+define bot refuse jailbreak attempt
+  "System Security Error: Unauthorized instruction set modification detected."
