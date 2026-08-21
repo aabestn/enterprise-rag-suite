@@ -4,11 +4,11 @@ A production-ready enterprise document QA platform featuring multi-page PDF inge
 
 ## Architecture Features
 
-- **Ingestion**: Async PostgreSQL document tracking paired with PyMuPDF vision layout extraction and dynamic semantic chunking[cite: 1].
-- **Retrieval Engine**: Dense vector search via Qdrant backed by Cohere hybrid re-ranking (`rerank-english-v3.0`)[cite: 1].
-- **Security**: Prompt injection defense and compliance enforcement powered by NeMo Guardrails[cite: 1].
-- **Evaluation Suite**: Automated tracking of context precision, recall, and hallucination rates using Ragas and MLflow[cite: 1].
-- **Telemetry & Microservices**: Fully dockerized service deployment with Prometheus & Grafana metrics monitoring[cite: 1].
+- **Ingestion**: Async PostgreSQL document tracking paired with PyMuPDF vision layout extraction and dynamic semantic chunking.
+- **Retrieval Engine**: Dense vector search via Qdrant backed by Cohere hybrid re-ranking (`rerank-english-v3.0`).
+- **Security**: Prompt injection defense and compliance enforcement powered by NeMo Guardrails.
+- **Evaluation Suite**: Automated tracking of context precision, recall, and hallucination rates using Ragas and MLflow.
+- **Telemetry & Microservices**: Fully dockerized service deployment with Prometheus & Grafana metrics monitoring.
 
 ## Quickstart
 
