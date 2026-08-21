@@ -1,6 +1,6 @@
 # Enterprise RAG Pipeline & Evaluation Suite
 
-A production-ready enterprise document QA platform featuring multi-page PDF ingestion, dynamic chunking, vector retrieval with hybrid re-ranking, security guardrails, and automated evaluation metrics[cite: 1].
+A production-ready enterprise document QA platform featuring multi-page PDF ingestion, dynamic chunking, vector retrieval with hybrid re-ranking, security guardrails, and automated evaluation metrics.
 
 ## Architecture Features
 
